@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sn
 import lance as lance
 
+#Importação das bases
 campcart = pd.read_csv("campeonato-brasileiro-cartoes.csv")
 campestat = pd.read_csv("campeonato-brasileiro-estatisticas-full.csv")
 campbrasfull = pd.read_csv("campeonato-brasileiro-full.csv")
